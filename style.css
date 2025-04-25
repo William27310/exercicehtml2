@@ -6,16 +6,12 @@ h1 {
 
 .renseignement {
     text-align: center;
-    margin: 5cap;
+    margin: 2cap;
 }
 
 .renseignement2 {
     text-align: center;
-    margin-right: 30px;
-}
-
-.renseignement3 {
-    text-align: center;
+    margin-right:30px;
 }
 
 .téléphone {
