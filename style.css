@@ -1,69 +1,47 @@
-img {
-    float: left;
-    position: absolute;
-    top: 580px;
-    left: 50px;
-}
-
-div {
-    font-size: 3pc;
+main h1 {
+    width: 100vw;
+    height: 50vh; 
+    display: table-cell;
+    vertical-align: middle;   
     text-align: center;
-    margin-top: 15pc;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    height: 65vh;
+}
 footer {
-    font-size: 90%;
-    margin-top: 7.5pc;
+    height: 35vh;
+    background-color: grey;
+}
+.contact, .map, .horaires {
+    border: 2px solid black;
+    display: inline-block;
+    width: 32vw;
+    vertical-align: top;
+    height: 80%;
+}
+
+.map {
     text-align: center;
 }
 
-.coordonnées {
-    font-size: 40%;
-    margin-top: 19pc;
+.contact {
     text-align: center;
 }
 
-.coordonnées_ex {
-    font-size: 100%;
-    margin-top:2pc;
+.horaires {
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.coordonnées2 {
-    font-size: 100%;
-    text-align: center;
-    margin-top: auto;
+th {
+    width: 45%;
+    text-align: left;
+    padding-left: 4rem;
 }
 
-.coordonnées3 {
-    font-size: 100%;
-    text-align: center;
-    margin-top: 2pc;
-}
-
-.nos_horaires {
-    margin-top: -230px;
-    font-size: 100%;
-    position: absolute;
-    right: 100px;
-}
-
-.icons_twitter {
-    position: relative;
-    top: -270px;
-    left: -650px;
-}
-
-.icons_instagram {
-    position: relative;
-    top: -270px;
-    left: -80px
-
-}
-
-.icons_facebook {
-    position: relative;
-    top: -272px;
-    right: -160;
+.icons i {
+    margin: 10px;
+    font-size: 20px;
 }
